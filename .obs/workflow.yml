@@ -1,0 +1,6 @@
+workflow:
+  steps:
+    - branch_package:
+        source_project: test_scmsync
+        source_package: hello_world01
+        target_project: testing
