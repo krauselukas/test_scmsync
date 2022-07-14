@@ -4,3 +4,5 @@ workflow:
         source_project: test_scmsync
         source_package: hello_world01
         target_project: testing
+  filters:
+    event: pull_request
