@@ -1,8 +1,8 @@
 workflow:
   steps:
-    - branch_package:
+    - link_package:
         source_project: test_scmsync
         source_package: hello_world01
-        target_project: testing
+        target_project: linking
   filters:
     event: pull_request
